@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOIR — Artisan Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://placehold.co/110x38/0a0806/c8a96e?text=NOIR"
+        alt="NOIR Coffee logo"
+      />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Craft</a>
+        <a class="nav-link" href="#demo">Story</a>
+        <a class="nav-link" href="#pricing">Blends</a>
+        <a class="nav-link nav-cta" href="#contact">Order</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-label">Single Origin · Small Batch · Direct Trade</div>
+      <h1 class="hero-title">
+        Coffee<br />
+        <em>as it was<br />meant to be.</em>
+      </h1>
+      <p class="hero-sub">
+        Sourced from elevation farms. Roasted in silence. Delivered to your door.
+      </p>
+      <a href="#pricing" class="btn-primary">Explore Blends</a>
+      <div class="hero-scroll">scroll ↓</div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features">
+      <span class="section-label">Our Craft</span>
+      <h2 class="section-title">Every detail, considered.</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">◈</div>
+          <h3>Direct Sourcing</h3>
+          <p>
+            We travel to the farms ourselves — Ethiopia, Colombia, Yemen.
+            No brokers. Just relationships built on trust and fair compensation.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">◎</div>
+          <h3>Precision Roasting</h3>
+          <p>
+            Each batch is roasted in small quantities using a 1920s cast-iron drum roaster.
+            Temperature curves are mapped by hand, never algorithm.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">◇</div>
+          <h3>Sealed at Peak</h3>
+          <p>
+            Beans are sealed within 4 hours of roasting with nitrogen flushing.
+            What arrives at your door is the same cup we taste in the roastery.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEMO / VIDEO -->
+    <section id="demo">
+      <span class="section-label">Our Story</span>
+      <h2 class="section-title">From soil to cup.</h2>
+      <p class="section-sub">
+        Follow the journey of a single bean — from a highland farm in Ethiopia
+        to the quiet ritual of your morning cup.
+      </p>
+      <div class="video-wrapper">
+        <iframe
+          id="video"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="NOIR Coffee — From Soil to Cup"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing">
+      <span class="section-label">Our Blends</span>
+      <h2 class="section-title">Choose your ritual.</h2>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-origin">Colombia · Huila</div>
+          <h3 class="pricing-name">Velvet</h3>
+          <p class="pricing-notes">Brown sugar · Dark cherry · Smooth finish</p>
+          <div class="pricing-price">$18 <span>/ 250g</span></div>
+          <a href="#contact" class="btn-outline">Select</a>
+        </div>
+        <div class="pricing-card pricing-featured">
+          <div class="pricing-badge">Most Loved</div>
+          <div class="pricing-origin">Ethiopia · Yirgacheffe</div>
+          <h3 class="pricing-name">Eclipse</h3>
+          <p class="pricing-notes">Jasmine · Bergamot · Citrus blossom</p>
+          <div class="pricing-price">$22 <span>/ 250g</span></div>
+          <a href="#contact" class="btn-primary">Select</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-origin">Yemen · Haraaz</div>
+          <h3 class="pricing-name">Ritual</h3>
+          <p class="pricing-notes">Dark chocolate · Dried fig · Incense</p>
+          <div class="pricing-price">$26 <span>/ 250g</span></div>
+          <a href="#contact" class="btn-outline">Select</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FORM -->
+    <section id="contact">
+      <span class="section-label">Stay Close</span>
+      <h2 class="section-title">Be the first to know.</h2>
+      <p class="section-sub">
+        New harvests, limited roasts, and quiet dispatches from the roastery —
+        delivered to your inbox.
+      </p>
+      <form id="form" action="https://www.freecodecamp.org/email-submit">
+        <div class="form-row">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+          />
+          <input id="submit" type="submit" value="Join the List" />
+        </div>
+        <p class="form-note">No noise. Unsubscribe at any time.</p>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-logo">NOIR</div>
+      <p class="footer-copy">© 2025 NOIR Coffee. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
+
+

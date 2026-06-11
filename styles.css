@@ -137,16 +137,6 @@ body {
   line-height: 1.8;
 }
 
-.hero-scroll {
-  position: absolute;
-  bottom: 2.5rem;
-  left: 2.5rem;
-  font-size: 0.68rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
 /* ── Buttons ─────────────────────────────────────────── */
 .btn-primary {
   display: inline-block;
